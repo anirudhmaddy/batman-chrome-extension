@@ -56,9 +56,7 @@ export default function Home() {
  
 
   let random = getRndInteger(0, 9);
-  console.log("Random>>>>", random);
   let quote = quotesList[random] 
-  console.log("quote>>>>", quote);
 
   function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
