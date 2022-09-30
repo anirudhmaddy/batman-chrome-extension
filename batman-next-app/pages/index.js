@@ -71,7 +71,6 @@ export default function Home() {
 
       if (url.includes("mail.google.com"))
       {
-         console.log("Get Started addBatmanSymbol>>>>");
         addBatmanSymbol(tabs[0].id);
       }
 
